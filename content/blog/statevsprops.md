@@ -1,7 +1,7 @@
 ---
 external: false
 title: 'State Vs Props in React'
-description: 'YProps and state are different, but they work together, also the flow of data in react.'
+description: 'Props and state are different, but they work together, also the flow of data in react.'
 date: 2023-02-24
 ---
 
