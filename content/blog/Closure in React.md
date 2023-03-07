@@ -71,6 +71,8 @@ function List() {
 }
 ```
 
+#
+
 ```jsx
 // AddItemForm.js
 function AddItemForm({ onAdd }) {
@@ -130,7 +132,7 @@ setMessage('World')
 console.log(message) // Hello
 ```
 
-# `wait what? what happened?`
+`wait what? what happened?`
 
 That wasn’t the correct implementation even if I said that was the correct one, sorry but
 
