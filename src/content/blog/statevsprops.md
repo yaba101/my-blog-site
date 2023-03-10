@@ -112,9 +112,9 @@ export default Parent
 
 # Recap
 
-| State                                                                                            | Props                                                              |
-| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
-| **`Data or information about the component`**                                                    | **`arguments you pass to a function/components`**                  |
-| **`When the state changes the component re-renders.`**                                           | **`it is way of parent component pass data to a child component`** |
-| **`Only the component that owns state can change it.`**                                          | **`cannot change props directly`**                                 |
-| **`State should be treated as immuatable even if they are mutable in case of object and array`** | **`they are immutable`**                                           |
+| State                                                                                          | Props                                                             |
+| ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| **Data or information about the component**                                                    | **arguments you pass to a function/components**                   |
+| **When the state changes the component re-renders.**                                           | **it is way of parent component pass data to a child component`** |
+| **Only the component that owns state can change it.**                                          | **cannot change props directly**                                  |
+| **State should be treated as immuatable even if they are mutable in case of object and array** | **they are immutable**                                            |
