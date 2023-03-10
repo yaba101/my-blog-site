@@ -1,13 +1,33 @@
 ---
 import PageMeta from '../components/PageMeta.astro'
+import technologies from '../data/technologies.json'
 import PageLayout from '../layouts/PageLayout.astro'
 import Intro from '../components/Intro.astro'
 import { SITE_TITLE } from '../config'
+import Skills from 'src/components/Skills.astro'
 ---
 
 <PageLayout>
 	<PageMeta title={`${SITE_TITLE} | `} slot='meta' />
 	<Fragment slot='main'>
 		<Intro />
+		<section class='mt-1 sm:mt-6' aria-labelledby='section-title'>
+			<h2
+				class='text-zinc-300 mb-4 text-2xl font-bold tracking-tight'
+				id='section-title'
+			>
+				My Favorite technologies
+			</h2>
+			<p class='max-w-prose mb-8 font-normal text-zinc-400 leading-relaxed'>
+				These are the technologies that I use everyday and love exploring them.
+			</p>
+			<ul class='grid grid-cols-1 gap-4 sm:grid-cols-2'>
+				{
+					technologies.map((tech) => (
+						<Skills logo={tech.logo} text={tech.text} />
+					))
+				}
+			</ul>
+		</section>
 	</Fragment>
 </PageLayout>

@@ -1,0 +1,22 @@
+[
+	{
+		"logo": "astro",
+		"text": "Astro"
+	},
+	{
+		"logo": "typescript",
+		"text": "TypeScript"
+	},
+	{
+		"logo": "nextjs",
+		"text": "Next.Js"
+	},
+	{
+		"logo": "react",
+		"text": "React"
+	},
+	{
+		"logo": "node",
+		"text": "Node.js"
+	}
+]
