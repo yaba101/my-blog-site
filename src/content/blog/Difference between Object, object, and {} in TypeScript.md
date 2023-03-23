@@ -82,7 +82,7 @@ obj = null // invalid, null is not an object
 obj = undefined // invalid, undefined in not object
 ```
 
-\***\*Don't use the `Object` or `object` or `{}` type when typing objects, only use these type when you want to exclude nullish or undefined values (Object or {} ) or if you want any object value (object). The reason is you cannot access the method of the object if you typed the object using one of the three.**
+Don't use the `Object` or `object` or `{}` type when typing objects, only use these type when you want to exclude nullish or undefined values (Object or {} ) or if you want any object value (object). The reason is you cannot access the method of the object if you typed the object using one of the three.
 
 ```tsx
 let notPossible: Object = {
@@ -96,3 +96,5 @@ notPossible: object= {
 }
 notPossible.value // all of them will raise error => Property 'value' does not exist on type 'Object'
 ```
+
+As a conclusion all of these(Object,object and {}) are useful when we want to accept or pass any data type but not null or undefined.
