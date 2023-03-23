@@ -103,4 +103,4 @@ if (value instanceof Object) {
 
 </aside>
 
-For a Deep Explanation about `Object` and `{}` also about `object` 😕 check out this: [Link](https://yeabsiramekuria.vercel.app/blog/difference-between-object-object-and--in-typesript)
+For a Deep Explanation about `Object` and `{}` also about `object` 😕 check out this: [Link](https://yeabsiramekuriablog.vercel.app/blog/difference-between-object-object-and--in-typescript)
