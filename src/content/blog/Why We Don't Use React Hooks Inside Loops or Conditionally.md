@@ -1,6 +1,6 @@
 ---
 external: false
-title: 'Why We Don't Use React Hooks Inside Loops or Conditionally?'
+title: "Why We Don't Use React Hooks Inside Loops or Conditionally?"
 description: 'One of the important rules when using Hooks is to never use them inside loops or conditions.'
 date: 2023-03-30
 ---
