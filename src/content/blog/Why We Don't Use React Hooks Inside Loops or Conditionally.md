@@ -65,7 +65,7 @@ function ItemList({ items }) {
 
 To avoid this issue, we should always call Hooks at the top level of the component, and outside of any loops or conditions. This ensures that Hooks are only called once per component render, and that the state is updated correctly.
 
-The other reason is related to the implementation of the hook. Before I talk about I have to give credit for the next reason to \***\*Shawn @swyx Wang, he talked about it at `JSConf Asia 2018` , which I genuinely copied and summarized his talk 😊. I highly recommend watching it. Here is the LINK**
+The other reason is related to the implementation of the hook. Before I talk about I have to give credit for the next reason to \***\*Shawn @swyx Wang, he talked about it at `JSConf Asia 2018` , which I genuinely copied and summarized his talk 😊. I highly recommend watching it. Here is the [Link](https://www.youtube.com/watch?v=KJP1E-Y-xyo&list=WL&index=19&t=910s)**
 
 ### The second reason 👇
 
