@@ -1,22 +1,35 @@
 [
-	{
-		"logo": "astro",
-		"text": "Astro"
-	},
-	{
-		"logo": "typescript",
-		"text": "TypeScript"
-	},
-	{
-		"logo": "nextjs",
-		"text": "Next.Js"
-	},
-	{
-		"logo": "react",
-		"text": "React"
-	},
-	{
-		"logo": "node",
-		"text": "Node.js"
-	}
+  {
+    "logo": "nextjs",
+    "text": "Next.Js"
+  },
+  {
+    "logo": "typescript",
+    "text": "TypeScript"
+  },
+  {
+    "logo": "react",
+    "text": "React"
+  },
+  {
+    "logo": "node",
+    "text": "Node.js"
+  },
+  {
+    "logo": "trpc",
+    "text": "tRPC"
+  },
+  {
+    "logo": "astro",
+    "text": "Astro"
+  },
+  {
+    "logo": "tailwindcss",
+    "text": "TailwindCSS"
+  },
+
+  {
+    "logo": "prisma",
+    "text": "Prisma"
+  }
 ]
